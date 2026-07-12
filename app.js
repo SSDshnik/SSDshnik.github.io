@@ -339,10 +339,9 @@ function renderProducts(items){
         <div class="product-image">
 
 
-            <img
-                src="${product.image}"
-                alt="${product.name}"
-            >
+            <div class="product-emoji" aria-hidden="true">
+                ${product.emoji}
+            </div>
 
 
 
@@ -716,8 +715,9 @@ function openModal(id){
 
 
 
-    modalImage.src =
-        product.image;
+    modalImage.textContent =
+        product.emoji;
+
 
 
 
@@ -798,3 +798,8 @@ modal.onclick = event => {
 
 
 init();
+import "./cart.js";
+import "./ui.js";
+
+
+document.addEventListener("cart-updated",()=>renderProducts(getFilteredProducts()));
