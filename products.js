@@ -23,7 +23,7 @@ export const products = [
 
         rating: 4.9,
 
-        image: "cappuccino.jpg",
+        emoji: "☕",
 
         description:
             "Классический итальянский кофе с нежной молочной пенкой",
@@ -53,7 +53,7 @@ export const products = [
 
         rating: 4.8,
 
-        image: "img/latte.webp",
+        emoji: "☕",
 
         description:
             "Мягкий кофейный напиток с большим количеством молока",
@@ -83,7 +83,7 @@ export const products = [
 
         rating: 4.9,
 
-        image: "img/espresso.webp",
+        emoji: "☕",
 
         description:
             "Насыщенный кофе с плотной кремовой пенкой",
@@ -112,7 +112,7 @@ export const products = [
 
         rating: 5.0,
 
-        image: "img/cheesecake.webp",
+        emoji: "🍰",
 
         description:
             "Нежный сливочный чизкейк с песочной основой",
@@ -143,7 +143,7 @@ export const products = [
 
         rating: 4.7,
 
-        image: "img/eclair.webp",
+        emoji: "🥐",
 
         description:
             "Французский десерт с нежным кремом",

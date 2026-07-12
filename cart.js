@@ -511,3 +511,5 @@ document.addEventListener(
     }
 
 );
+
+document.addEventListener("change-cart",e=>changeQuantity(e.detail.id,e.detail.amount));
